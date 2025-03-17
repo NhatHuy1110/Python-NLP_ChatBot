@@ -1,0 +1,247 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hello",
+          "Good morning",
+          "Good afternoon",
+          "Howdy",
+          "Hey",
+          "Is anyone there?",
+          "Good evening",
+          "What's up?",
+          "Hi there!"
+        ],
+        "responses": [
+          "Welcome to Brew Haven! How can I assist you today?",
+          "Hello! Ready to find your perfect brew?",
+          "Hey there! How’s it going? Looking for a coffee recommendation?",
+          "Hi! What brings you to Brew Haven today?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Goodbye",
+          "Bye",
+          "See you later",
+          "I have to go",
+          "Take care",
+          "Catch you later",
+          "Peace out",
+          "Good night",
+          "Talk to you soon"
+        ],
+        "responses": [
+          "Thanks for stopping by Brew Haven! See you soon!",
+          "Goodbye! Remember, there’s always a coffee waiting for you here!",
+          "Take care! Come back for more coffee inspiration anytime!",
+          "Bye for now! Stay caffeinated!"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thank you",
+          "Thanks a lot",
+          "Much appreciated",
+          "Thanks",
+          "You're the best",
+          "I appreciate it",
+          "Thank you very much",
+          "Thanks a million",
+          "Couldn't have done it without you"
+        ],
+        "responses": [
+          "You’re welcome! Enjoy your coffee!",
+          "Glad to be of service! Any time!",
+          "Happy to help! Swing by if you have more questions.",
+          "No problem! Wishing you a delightful coffee experience!"
+        ]
+      },
+      {
+        "tag": "coffee_recommendation",
+        "patterns": [
+          "Can you recommend a coffee?",
+          "What coffee should I try?",
+          "I want a strong coffee",
+          "Do you have a sweet coffee?",
+          "What’s a good coffee for beginners?",
+          "Suggest me a coffee",
+          "I like dark roast, any suggestions?",
+          "Do you have any seasonal flavors?"
+        ],
+        "responses": [
+          "If you like it strong, our espresso or dark roast will hit the spot!",
+          "For a sweet treat, try our caramel macchiato or vanilla latte!",
+          "New to coffee? Start with a classic latte or a mocha for a smooth introduction.",
+          "This season, we recommend our pumpkin spice latte and spiced caramel coffee."
+        ]
+      },
+      {
+        "tag": "menu_items",
+        "patterns": [
+          "What's on your menu?",
+          "Show me the menu",
+          "What types of drinks do you have?",
+          "Do you have any new items?",
+          "Tell me your popular drinks",
+          "Do you have any non-coffee drinks?",
+          "Can I see the food menu?",
+          "What’s your bestseller?"
+        ],
+        "responses": [
+          "Our menu includes a variety of coffees, teas, smoothies, and pastries. Our bestseller is the caramel macchiato!",
+          "You’ll find espresso, cappuccino, lattes, cold brews, and more. We also have sandwiches and desserts!",
+          "Non-coffee options include matcha latte, chai tea, and refreshing smoothies.",
+          "We just added a lavender latte and maple cold brew for a unique twist!"
+        ]
+      },
+      {
+        "tag": "order_status",
+        "patterns": [
+          "Where’s my order?",
+          "How long does it take to prepare my drink?",
+          "What’s the status of my order?",
+          "Can I track my order?",
+          "I ordered a coffee, when will it be ready?",
+          "Is my coffee ready for pickup?",
+          "Order tracking"
+        ],
+        "responses": [
+          "Your order should be ready in 5-10 minutes for pickup.",
+          "Currently preparing your order! Hang tight; it’ll be ready shortly.",
+          "Check your order status on our app for real-time updates.",
+          "Your coffee is being crafted as we speak! We’ll notify you when it’s ready."
+        ]
+      },
+      {
+        "tag": "store_hours",
+        "patterns": [
+          "What are your hours?",
+          "When are you open?",
+          "What time do you close?",
+          "Are you open on weekends?",
+          "Do you open early?",
+          "What’s your opening time?",
+          "Are you open on holidays?"
+        ],
+        "responses": [
+          "We’re open daily from 7 AM to 8 PM. On weekends, we close at 10 PM.",
+          "Our hours are weekdays 7 AM - 8 PM, and weekends 8 AM - 10 PM.",
+          "We’re open every day except major holidays.",
+          "Feel free to visit us any day! Check our website for holiday hours."
+        ]
+      },
+      {
+        "tag": "payment_methods",
+        "patterns": [
+          "Do you accept credit cards?",
+          "Can I use Paypal?",
+          "Is cash acceptable?",
+          "Do you take digital payments?",
+          "Do you accept Apple Pay?",
+          "Can I use Google Pay?",
+          "Do you accept cash?",
+          "Can I pay with my coffee rewards card?"
+        ],
+        "responses": [
+          "We accept cash, credit cards, Apple Pay, Google Pay, and coffee rewards cards.",
+          "You can pay with cash, cards, and digital wallets like Apple and Google Pay.",
+          "Yes, all major payment methods, including our loyalty rewards card, are accepted here.",
+          "We’re flexible with payment options. Use what works best for you!"
+        ]
+      },
+      {
+        "tag": "loyalty_program",
+        "patterns": [
+          "Tell me about your loyalty program",
+          "How do I earn rewards?",
+          "What are the perks of your loyalty program?",
+          "Do you have a rewards program?",
+          "How can I earn points?",
+          "Are there any membership benefits?",
+          "Can I redeem points for free coffee?"
+        ],
+        "responses": [
+          "Our loyalty program gives you points for every purchase. Earn enough points to redeem for free drinks and discounts!",
+          "Every purchase earns you points that go towards free drinks, discounts, and exclusive promotions.",
+          "Join our loyalty program for rewards on every purchase. Points can be redeemed for free coffee and more!",
+          "Sign up for our rewards program and start earning points today!"
+        ]
+      },
+      {
+        "tag": "promotions",
+        "patterns": [
+          "Do you have any promotions?",
+          "Are there any discounts today?",
+          "What’s the special of the day?",
+          "Is there a happy hour?",
+          "Tell me about your current deals",
+          "Do you have any limited-time offers?"
+        ],
+        "responses": [
+          "Today’s promotion: Buy one latte, get the second 50% off!",
+          "Our current deal is 10% off all pastries with any drink purchase.",
+          "Happy hour is from 2-4 PM with 15% off all iced drinks!",
+          "Check out our app for the latest promotions and seasonal specials."
+        ]
+      },
+      {
+        "tag": "order_customization",
+        "patterns": [
+          "Can I customize my coffee?",
+          "Do you have dairy-free options?",
+          "Can I add extra shots?",
+          "Do you have sugar-free syrups?",
+          "I want almond milk instead of regular",
+          "Do you have decaf coffee?",
+          "Can I make my drink iced?",
+          "Can I get a large size?"
+        ],
+        "responses": [
+          "Absolutely! You can choose milk alternatives, extra shots, and adjust sweetness levels.",
+          "We offer almond, soy, and oat milk, as well as sugar-free syrups.",
+          "Feel free to customize your order to your liking! Just let us know.",
+          "You can choose your preferred milk, flavor, and strength for a personalized drink."
+        ]
+      },
+      {
+        "tag": "store_location",
+        "patterns": [
+          "Where are you located?",
+          "What's your address?",
+          "Where can I find your shop?",
+          "Can I visit the store?",
+          "Where’s your coffee shop located?",
+          "Do you have a location map?",
+          "Are there any nearby branches?"
+        ],
+        "responses": [
+          "Our main shop is located at 123 Brew Street, Coffee Town.",
+          "Find us at 456 Espresso Lane, Suite 101.",
+          "Visit our store at 789 Caffeine Avenue! We’d love to see you.",
+          "We’re located downtown at 101 Mocha Plaza. Stop by anytime!"
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a coffee joke",
+          "Make me laugh",
+          "Do you know any coffee jokes?",
+          "Can you share something funny?",
+          "Got any coffee humor?"
+        ],
+        "responses": [
+          "Why did the coffee file a police report? It got mugged!",
+          "What’s a coffee’s favorite workout? The French press!",
+          "How did the coffee show self-discipline? It stayed grounded.",
+          "What did the coffee say to the sugar? You’re sweet enough without me!"
+        ]
+      }
+    ]
+  }
+  
